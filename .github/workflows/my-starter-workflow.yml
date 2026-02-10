@@ -6,7 +6,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-     call-reusable-workflow:
+      call-reusable-workflow:
   uses: ./.github/workflows/reusable-workflow.yml
   with:
     node: 14
